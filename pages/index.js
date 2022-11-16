@@ -11,7 +11,9 @@ const homePage = () => {
           <h2>
             <a href="/about">about</a> •{" "}
             <a href="/">music i’ve been listening to</a> •{" "}
-            <a href="/">clothes i’ve been making</a>
+            <a href="https://instagram.com/durgathelabel">
+              clothes i’ve been making
+            </a>
           </h2>
         </div>
       </div>
