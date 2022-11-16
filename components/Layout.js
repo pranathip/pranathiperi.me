@@ -1,4 +1,4 @@
-import Header from "./header";
+import Header from "./Header";
 import React from "react";
 import Head from "next/head";
 
