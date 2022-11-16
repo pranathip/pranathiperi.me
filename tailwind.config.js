@@ -15,6 +15,7 @@ module.exports = {
         primary: "#2F2F2F",
         secondary: "#707070",
         tertiary: "#C1C1C1",
+        highlight: "#F08496",
       },
     },
     maxWidth: {
