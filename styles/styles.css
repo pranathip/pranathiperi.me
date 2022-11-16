@@ -24,6 +24,10 @@
     @apply text-tertiary text-xs;
   }
 
+  a.highlight {
+    @apply text-highlight;
+  }
+
   a:hover {
     opacity: 50%;
   }

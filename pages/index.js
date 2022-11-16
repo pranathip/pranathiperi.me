@@ -5,11 +5,12 @@ import Section from "../components/Section";
 const homePage = () => {
   return (
     <Layout>
-      <div className="grid max-w-full gap-16 auto-rows-auto">
+      <div className="grid max-w-full auto-rows-auto">
         <div className="mt-12 md:mt-8">
           <h2>
-            <a href="/">about</a> • <a href="/">music i’ve been listening to</a>{" "}
-            • <a href="/">clothes i’ve been making</a>
+            <a href="/about">about</a> •{" "}
+            <a href="/">music i’ve been listening to</a> •{" "}
+            <a href="/">clothes i’ve been making</a>
           </h2>
         </div>
       </div>
