@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
         <Header />
         {children}
         <div className="flex flex-row justify-between my-8">
-          <p>made with ♥ in nyc by pranathi peri</p>
+          <p>made with ♡ in nyc by pranathi peri</p>
         </div>
       </div>
     </main>
