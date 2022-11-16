@@ -1,11 +1,11 @@
 import Header from "./header";
 import React from "react";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 const Layout = ({ children }) => {
   return (
     <main>
-      <Helmet>
+      <Head>
         <title>Pranathi Peri</title>
         <link
           href="https://pranathiperi.me/images/icons/favicon-96x96.png"
@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
           rel="apple-touch-icon"
           sizes="120x120"
         />
-      </Helmet>
+      </Head>
       <div className="container mx-auto mt-16 max-w-container-small md:max-w-container-large md:mt-32">
         <Header />
         {children}

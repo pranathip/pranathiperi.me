@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Orb } from "./svg";
-import { Helmet } from "react-helmet";
 
 const Header = () => {
   return (
