@@ -18,7 +18,7 @@ const homePage = () => {
           </h2>
         </div>
       </div>
-      <Section title="projects and gigs" showLastUpdated></Section>
+      <Section title="projects and gigs" showLastUpdated>
         <ProjectSection
           subject="product designer"
           project="github"

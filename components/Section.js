@@ -8,9 +8,9 @@ const Section = ({ title, showLastUpdated, children }) => {
         <div className="grid grid-flow-col auto-cols-max gap-2 mt-12">
           <h3>{title}</h3>
           <PillButton />
-          {children}
         </div>
         <Underline />
+        {children}
       </div>
     );
   }
