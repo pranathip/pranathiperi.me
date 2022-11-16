@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Layout from "../components/Layout";
 import Section from "../components/Section";
+import ContactInfo from "../components/ContactInfo";
 
 const homePage = () => {
   return (
@@ -15,7 +16,9 @@ const homePage = () => {
         </div>
       </div>
       <Section title="projects and gigs"></Section>
-      <Section title="let's chat"></Section>
+      <Section title="let's chat">
+        <ContactInfo />
+      </Section>
     </Layout>
   );
 };
