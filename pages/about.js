@@ -21,7 +21,7 @@ const aboutPage = () => {
               the university of california, berkeley
             </a>{" "}
             in december of 2021 with a degree in electrical engineering &
-            computer science, and a certificate in design innovation from{" "}
+            computer science and a certificate in design innovation from{" "}
             <a
               className="highlight"
               href="https://jacobsinstitute.berkeley.edu/"
@@ -30,25 +30,25 @@ const aboutPage = () => {
             </a>
           </h2>
           <h2>
-            my specialty lies in fullstack and frontend web and app
-            development/design - i love creating beatiful user experiences with
-            useful applications. previously, i was a software engineer at meta,
-            and a product designer at github doing just that.
+            my specialty lies in fullstack web/mobile app development and
+            design. previously i was a software engineer at meta, and a product
+            designer at github creating beatiful user experiences with useful
+            day-to-day applications.
           </h2>
           <h2>
-            outside of work, i design clothing for my brand,{" "}
+            outside of work, i design clothing for my brand:{" "}
             <a className="highlight" href="https://instagram.com/durgathelabel">
               durga the label.
             </a>{" "}
             i source sustainable fabrics and textiles from vendors in india to
             create beautiful, modern clothing. while i generally hand make most
-            things myself, i've recently been working closely with artisans and
+            pieces myself, i've recently been working with artisans and
             craftsmen in india to make some of my more complicated designs come
             to life.
           </h2>
           <h2>
-            i'm always looking for exciting new ventures and projects to join!
-            please don't hesitate to reach out if you think this would be a good
+            i'm always looking to join exciting new ventures and projects!
+            please don't hesitate to reach out if you think this could be a good
             fit, or even just to chat. :)
           </h2>
         </div>
