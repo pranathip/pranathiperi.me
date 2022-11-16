@@ -2,18 +2,6 @@ import React, { Component } from "react";
 import Layout from "../components/Layout";
 import Section from "../components/Section";
 import ContactInfo from "../components/ContactInfo";
-//import PillButton from "../components/PillButton";
-import styled from "styled-components";
-
-const PillButton = styled.button`
-  background-color: #4caf50; /* Green */
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-`;
 
 const homePage = () => {
   return (
