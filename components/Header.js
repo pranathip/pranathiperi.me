@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Orb } from "./svg";
+import { Orb } from "./Svg";
 
 const Header = () => {
   return (
