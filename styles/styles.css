@@ -16,7 +16,19 @@
     @apply text-secondary text-sm;
   }
 
+  h3 {
+    @apply text-primary text-base;
+  }
+
   p {
     @apply text-tertiary text-xs;
+  }
+
+  a.highlight {
+    @apply text-highlight;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 }
