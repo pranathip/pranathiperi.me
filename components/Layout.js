@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
           sizes="120x120"
         />
       </Head>
-      <div className="container mx-auto mt-16 max-w-container-small md:max-w-container-large md:mt-32">
+      <div className="container mx-auto mt-16 max-w-container-small md:max-w-container-large">
         <Header />
         {children}
         <div className="flex flex-row justify-between my-8">
