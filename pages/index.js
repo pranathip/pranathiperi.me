@@ -11,7 +11,10 @@ const homePage = () => {
         <div className="mt-8">
           <h2>
             <a href="/about">about</a> •{" "}
-            <a href="/">music i’ve been listening to</a> •{" "}
+            <a href="https://open.spotify.com/user/pperi13?si=6d771ffe169f47ff">
+              music i’ve been listening to
+            </a>{" "}
+            •{" "}
             <a href="https://instagram.com/durgathelabel">
               clothes i’ve been making
             </a>
