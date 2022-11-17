@@ -4,6 +4,7 @@ const ContactInfo = () => {
       <div>
         <h2 className="text-primary">the corporate stuff</h2>
         <h2>
+          <a href="https://read.cv/pranathi">cv</a> •{" "}
           <a href="mailto:pranathi.peri@gmail.com">email</a> •{" "}
           <a href="https://linkedin.com/in/pranathip">linkedin</a>
         </h2>
