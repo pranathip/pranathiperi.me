@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Layout from "../components/Layout";
-import Section from "../components/Section";
+import { ArrowRight } from "../components/Svg";
 
 const aboutPage = () => {
   return (
@@ -9,8 +9,9 @@ const aboutPage = () => {
         <div className="columns mt-12 md:mt-8">
           <h2>
             <a href="https://pranathiperi.me/assets/Pranathi_Peri_Resume.pdf">
-              resume →
+              resume
             </a>
+            <ArrowRight color="stroke-current text-secondary" />
           </h2>
         </div>
         <div className="grid max-w-full auto-rows-auto gap-4">

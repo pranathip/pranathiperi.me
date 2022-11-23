@@ -41,7 +41,7 @@ export const Underline = () => (
   </svg>
 );
 
-export const ArrowRight = () => (
+export const ArrowRight = ({ color }) => (
   <svg
     className="inline ml-2"
     width="11"
@@ -54,7 +54,7 @@ export const ArrowRight = () => (
       stroke-width="1.5"
       stroke-linecap="round"
       stroke-linejoin="round"
-      className="stroke-current text-primary"
+      className={color}
     />
   </svg>
 );

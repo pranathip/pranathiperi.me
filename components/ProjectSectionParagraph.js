@@ -6,7 +6,7 @@ const ProjectSection = ({ subject, project, link, subtitle }) => {
       <h2 className="text-primary">
         <a href={link}>
           {subject}, {project}
-          <ArrowRight />
+          <ArrowRight color="stroke-current text-primary" />
         </a>
       </h2>
       <p className="text-secondary">{subtitle}</p>
