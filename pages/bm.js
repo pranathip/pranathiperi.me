@@ -47,24 +47,32 @@ const homePage = () => {
             src="./images/bm/vid1.mov"
             autoPlay
             loop
+            playsInline
+            muted
           />
           <video
             className="rounded-lg"
             src="./images/bm/vid2.mov"
             autoPlay
             loop
+            playsInline
+            muted
           />
           <video
             className="rounded-lg"
             src="./images/bm/vid3.mov"
             autoPlay
             loop
+            playsInline
+            muted
           />
           <video
             className="rounded-lg"
             src="./images/bm/vid4.mov"
             autoPlay
             loop
+            playsInline
+            muted
           />
         </div>
         <img className="mb-5" src="./images/bm/sponboarding.png"></img>
