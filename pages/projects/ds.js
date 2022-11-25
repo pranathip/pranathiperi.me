@@ -8,24 +8,43 @@ const homePage = () => {
         <div className="mb-6">
           <h2 className="text-tertiary">description</h2>
           <p className="text-secondary">
-            in between graduation (december 2021) and moving to nyc, i took on
-            the role of product designer at{" "}
-            <a className="highlight" href="https://github.com">
-              GitHub
+            as a facebook university engineering intern, i was tasked with
+            designing and developing an iOS application from the ground up.
+            deadstock is an app that allows users to monitor the prices of
+            highly sought after sneakers, similar to the way in which users
+            monitor stock prices on an investing application. the app has three
+            main parts: price monitoring, sneaker news, and user authentication.{" "}
+            <br />
+            <br />
+            in order to get live data for the price monitoring aspect of the
+            app, i created a scraper using python, BeautifulSoup, and selenium
+            which paginates through the{" "}
+            <a className="highlight" href="https://stockx.com">
+              stockx website
+            </a>{" "}
+            year-by-year to get information about each sneaker including
+            volatility, 52-week high, colorway, last selling price, and more.{" "}
+            <br />
+            <br />
+            the sneaker news feature of the app pulls data from a{" "}
+            <a className="highlight" href="https://newsapi.org/">
+              news api
             </a>
-            . during my 7.5 months at the company, i worked on creating
-            visionary designs for the [secret] future of pull requests,
-            re-designing{" "}
+            , using the nations most popular lifestyle/sneaker news outlets as
+            endpoints. <br />
+            <br />
+            finally, the user authentication portion of the app allows a user to
+            create an account, change their profile picture, password, and
+            username. additionally, using firebase, each user's data (including
+            the sneakers they've selected to monitor) persists across a user's
+            session. <br />
+            <br />
+            the source code for this project can be found{" "}
             <a
               className="highlight"
-              href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue"
+              href="https://github.com/pranathip/DeadStock"
             >
-              merge queue
-            </a>{" "}
-            (a feature that's currently in limited public beta), and
-            designing/implementing pricing/membership settings for{" "}
-            <a className="highlight" href="https://github.com/features/copilot">
-              copilot
+              here
             </a>
             .
           </p>
@@ -33,22 +52,27 @@ const homePage = () => {
         <div className="mb-6">
           <h2 className="text-tertiary">tools</h2>
           <p className="text-secondary">
-            Figma / Procreate / React / Next.js / Tailwind
+            Objective-C / Swift / UIKit / Firebase / Python / Selenium /
+            BeautifulSoup / Figma / Procreate
           </p>
         </div>
         <div className="mb-6">
           <h2 className="text-tertiary">timeline</h2>
-          <p className="text-secondary">january 2022 - september 2022</p>
+          <p className="text-secondary">august 2020</p>
         </div>
       </div>
       <div className="w-full drop-shadow-lg">
         <img
           className="mb-5"
-          src="https://pranathiperi.me/images/gh/mergequeue.png"
+          src="https://pranathiperi.me/images/ds/ds.png"
         ></img>
         <img
           className="mb-5"
-          src="https://pranathiperi.me/images/gh/mergequeue.png"
+          src="https://pranathiperi.me/images/ds/wireframes.png"
+        ></img>
+        <img
+          className="mb-5"
+          src="https://pranathiperi.me/images/ds/hifid.png"
         ></img>
       </div>
     </Layout>
