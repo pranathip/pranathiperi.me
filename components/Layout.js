@@ -26,6 +26,10 @@ const Layout = ({ children }) => {
     >
       <Head>
         <title>Pranathi Peri</title>
+        <meta
+          name="description"
+          content="software engineer + product designer"
+        />
         <link
           href="https://pranathiperi.me/images/icons/favicon-96x96.png"
           rel="icon"
