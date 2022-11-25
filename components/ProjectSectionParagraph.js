@@ -38,7 +38,7 @@ const ProjectSectionParagraph = () => {
       <ProjectSection
         subject="deadstock"
         project="personal project (iOS application)"
-        link="/"
+        link="/projects/ds"
         subtitle="deadstock is an app that allows users to monitor volatile prices of highly sought after sneakers. design and developed from the ground up"
       ></ProjectSection>
       <ProjectSection

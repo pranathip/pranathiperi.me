@@ -11,16 +11,20 @@ const Header = () => {
 
   if (router.pathname == "/") {
     isProjectPage = false;
-  } else if (router.pathname == "/github") {
+  } else if (router.pathname == "/projects/github") {
     title = "product designer, github";
     subtitle = "made pull requests even better.";
-  } else if (router.pathname == "/facebook") {
+  } else if (router.pathname == "/projects/facebook") {
     title = "software engineering intern, facebook";
     subtitle = "developing funky features for facebook's messenger kids on iOS";
-  } else if (router.pathname == "/bm") {
+  } else if (router.pathname == "/projects/bm") {
     title = "product design lead, berkeley mobile";
     subtitle =
       "designing features for uc berkeley's flagship campus mobile application";
+  } else if (router.pathname == "/projects/ds") {
+    title = "deadstock";
+    subtitle =
+      "iOS application that allows users to monitor volatile sneaker prices";
   }
   if (isProjectPage) {
     return (
