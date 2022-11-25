@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Layout from "../../components/Layout";
+import ProjectVideo from "../../components/ProjectVideo";
 
 const homePage = () => {
   return (
@@ -45,38 +46,10 @@ const homePage = () => {
           src="https://pranathiperi.me/images/bm/bmappstore.png"
         ></img>
         <div className="grid grid-cols-4 gap-4 mb-5">
-          <video
-            className="rounded-lg"
-            src="https://pranathiperi.me/images/bm/vid1.mov"
-            autoPlay
-            loop
-            playsInline
-            muted
-          />
-          <video
-            className="rounded-lg"
-            src="https://pranathiperi.me/images/bm/vid2.mov"
-            autoPlay
-            loop
-            playsInline
-            muted
-          />
-          <video
-            className="rounded-lg"
-            src="https://pranathiperi.me/images/bm/vid3.mov"
-            autoPlay
-            loop
-            playsInline
-            muted
-          />
-          <video
-            className="rounded-lg"
-            src="https://pranathiperi.me/images/bm/vid4.mov"
-            autoPlay
-            loop
-            playsInline
-            muted
-          />
+          <ProjectVideo src="https://pranathiperi.me/images/bm/vid1.mov" />
+          <ProjectVideo src="https://pranathiperi.me/images/bm/vid2.mov" />
+          <ProjectVideo src="https://pranathiperi.me/images/bm/vid3.mov" />
+          <ProjectVideo src="https://pranathiperi.me/images/bm/vid4.mov" />
         </div>
         <img
           className="mb-5"
