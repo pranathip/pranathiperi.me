@@ -24,10 +24,6 @@
     @apply text-tertiary text-xs;
   }
 
-  p:hover {
-    text-decoration: underline;
-  }
-
   a.highlight {
     @apply text-highlight;
   }
