@@ -44,7 +44,7 @@ const ProjectSectionParagraph = () => {
       <ProjectSection
         subject="founder and designer"
         project="durga the label"
-        link="/"
+        link="https://instagram.com/durgathelabel"
         subtitle="hand making modern clothing pieces out of sustainably sourced indian textiles and fabrics."
       ></ProjectSection>
     </>
