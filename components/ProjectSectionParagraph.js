@@ -20,19 +20,19 @@ const ProjectSectionParagraph = () => {
       <ProjectSection
         subject="product designer"
         project="github"
-        link="/"
+        link="/github"
         subtitle="made pull requests even better. designed flows for merge queue, threaded comments on PRs, and some other [secret stuff].  "
       ></ProjectSection>
       <ProjectSection
         subject="software engineering intern"
         project="facebook"
-        link="/"
+        link="/facebook"
         subtitle="designed and developed features for messenger kids on iOS"
       ></ProjectSection>
       <ProjectSection
         subject="product design lead"
         project="berkeley mobile"
-        link="/"
+        link="/bm"
         subtitle="led the design and feature development for uc berkeley's flagship mobile application, available on the app store and used daily by thousands of students."
       ></ProjectSection>
       <ProjectSection
