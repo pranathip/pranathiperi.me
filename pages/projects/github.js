@@ -48,7 +48,7 @@ const homePage = () => {
         ></img>
         <img
           className="mb-5"
-          src="https://pranathiperi.me/images/gh/mergequeue.png"
+          src="https://pranathiperi.me/images/gh/commenting.png"
         ></img>
       </div>
     </Layout>
