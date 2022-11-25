@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 
 const homePage = () => {
   return (
@@ -34,8 +34,14 @@ const homePage = () => {
         </div>
       </div>
       <div className="w-full drop-shadow-lg">
-        <img className="mb-5" src="./images/fb/postrtcsurvey.png"></img>
-        <img className="mb-5" src="./images/fb/voicemod.png"></img>
+        <img
+          className="mb-5"
+          src="https://pranathiperi.me/images/fb/postrtcsurvey.png"
+        ></img>
+        <img
+          className="mb-5"
+          src="https://pranathiperi.me/images/fb/voicemod.png"
+        ></img>
       </div>
     </Layout>
   );

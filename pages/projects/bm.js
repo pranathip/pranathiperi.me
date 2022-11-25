@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 
 const homePage = () => {
   return (
@@ -40,11 +40,14 @@ const homePage = () => {
         </div>
       </div>
       <div className="w-full drop-shadow-lg">
-        <img className="mb-5" src="./images/bm/bmappstore.png"></img>
+        <img
+          className="mb-5"
+          src="https://pranathiperi.me/images/bm/bmappstore.png"
+        ></img>
         <div className="grid grid-cols-4 gap-4 mb-5">
           <video
             className="rounded-lg"
-            src="./images/bm/vid1.mov"
+            src="https://pranathiperi.me/images/bm/vid1.mov"
             autoPlay
             loop
             playsInline
@@ -52,7 +55,7 @@ const homePage = () => {
           />
           <video
             className="rounded-lg"
-            src="./images/bm/vid2.mov"
+            src="https://pranathiperi.me/images/bm/vid2.mov"
             autoPlay
             loop
             playsInline
@@ -60,7 +63,7 @@ const homePage = () => {
           />
           <video
             className="rounded-lg"
-            src="./images/bm/vid3.mov"
+            src="https://pranathiperi.me/images/bm/vid3.mov"
             autoPlay
             loop
             playsInline
@@ -68,14 +71,17 @@ const homePage = () => {
           />
           <video
             className="rounded-lg"
-            src="./images/bm/vid4.mov"
+            src="https://pranathiperi.me/images/bm/vid4.mov"
             autoPlay
             loop
             playsInline
             muted
           />
         </div>
-        <img className="mb-5" src="./images/bm/sponboarding.png"></img>
+        <img
+          className="mb-5"
+          src="https://pranathiperi.me/images/bm/sponboarding.png"
+        ></img>
       </div>
     </Layout>
   );
