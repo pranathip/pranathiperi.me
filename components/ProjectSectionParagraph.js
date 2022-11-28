@@ -21,7 +21,7 @@ const ProjectSectionParagraph = () => {
         subject="product designer"
         project="github"
         link="/projects/github"
-        subtitle="made pull requests even better. designed flows for merge queue, threaded comments on PRs, and some other [secret stuff].  "
+        subtitle="made pull requests even better. designed flows for merge queue, threaded comments on PRs, and other exciting PR stuff.  "
       ></ProjectSection>
       <ProjectSection
         subject="software engineering intern"

@@ -14,8 +14,8 @@ const homePage = () => {
               GitHub
             </a>
             . during my 7.5 months at the company, i worked on creating
-            visionary designs for the [secret] future of pull requests,
-            re-designing{" "}
+            visionary designs for the future of code review/stacked changes on
+            pull requests, re-designing{" "}
             <a
               className="highlight"
               href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-a-merge-queue"
